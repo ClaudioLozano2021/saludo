@@ -30,4 +30,4 @@ jobs:
       # Ejecutar test
       - name: Run tests
         run: |
-          python -m TestsSaludo
+          python -m unittest discover tests
