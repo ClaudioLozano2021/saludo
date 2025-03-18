@@ -6,7 +6,7 @@ from main import saludo
 class TestSaludo(unittest.TestCase):
     def test_saludo_mundo(self):
         resultado = saludo("Mundo")
-        self.assertEqual(resultado, "Hola, Mundo!!")
+        self.assertEqual(resultado, "Hola, Mundo!")
 
     def test_saludo_personalizado(self):
         nombre_prueba = "ChatGPT"
